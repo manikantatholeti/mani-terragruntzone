@@ -5,7 +5,7 @@
 
 terraform {
   #source = "git@github.com:manikantatholeti/mani-terragruntzone.git//terraform-templates/jenkins/"
-  source = "../../../terraform-templates/tde"
+  source = "../../../terraform-templates/jenkins"
 }
 
 
