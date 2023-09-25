@@ -4,8 +4,8 @@
 ################################################################################
 
 terraform {
-  #source = "git@github.com:manikantatholeti/mani-terragruntzone.git//terraform-templates/jenkins/"
-  source = "../../../terraform-templates/jenkins"
+  source = "git@github.com:manikantatholeti/mani-terragruntzone.git//terraform-templates/jenkins"
+  #source = "../../../terraform-templates/jenkins"
 }
 generate "backend" {
   path      = "backend.tf"
